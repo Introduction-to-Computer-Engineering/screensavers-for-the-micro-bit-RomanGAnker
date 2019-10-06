@@ -109,11 +109,22 @@ This assignment asks you to design a program and implement it in micro:bit JavaS
 
 ### SS 1
 
-_[Your description of screensaver 1]_
+Screen Saver 1 is a pattern of LED lights that change in Brightness through each loop.
 
 ### SS 2 
 
-_[And so on]_
+Screen Saver 2 is a small number of RNG LED lights that randomly pop up in different grid spaces with differing brightnesses. 
 
+### SS 3 
+
+Screen Saver 3 is plotted graph that uses a constantly changing RNG pattern. The display flashes at different brightneses depending on the loop.
+
+## SS 4
+
+Screen Saver 4 is a horizontally delayed group of LED lights that travel from Left to right and delete themselves when they reach the other side.
+
+## SS 5
+
+Screen Saver 5 is a vertically delayed group of LED lights that travel from the top of the Microbit to the Bottom, the loop resets when they reach the bottom.
 ## Demo URL
 
