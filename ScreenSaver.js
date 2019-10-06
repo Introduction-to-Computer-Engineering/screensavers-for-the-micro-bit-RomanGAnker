@@ -13,7 +13,9 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     game.setScore(0)
-    basic.clearScreen()
+    for (let i = 0; i < 4; i++) {
+        basic.clearScreen()
+    }
 })
 input.onGesture(Gesture.Shake, function () {
     game.addScore(1)
@@ -22,8 +24,8 @@ basic.forever(function () {
     if (game.score() == 3) {
         led.setBrightness(255)
         led.plotBarGraph(
-            Math.randomRange(0, 6),
-            Math.randomRange(0, 6)
+        Math.randomRange(0, 6),
+        Math.randomRange(0, 6)
         )
         led.setBrightness(70)
     }
@@ -74,6 +76,11 @@ basic.forever(function () {
         basic.pause(100)
         control.waitMicros(4)
         basic.clearScreen()
+    }
+})
+basic.forever(function () {
+    if (game.score() == 0) {
+        basic.showString(" On ")
     }
 })
 basic.forever(function () {
