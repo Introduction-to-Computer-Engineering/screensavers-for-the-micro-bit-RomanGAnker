@@ -1,3 +1,4 @@
+// Without gestures
 let sprite: game.LedSprite = null
 let sprite_2: game.LedSprite = null
 let spriteThree: game.LedSprite = null
