@@ -128,4 +128,4 @@ Screen Saver 4 is a horizontally delayed group of LED lights that travel from Le
 Screen Saver 5 is a vertically delayed group of LED lights that travel from the top of the Microbit to the Bottom, the loop resets when they reach the bottom. Triggered by facing the Microbit logo upwards while in sleep mode. 
 ## Demo URL
 
-https://imgur.com/a/bjlggfr
+https://imgur.com/a/bjlggfr?s=sms
